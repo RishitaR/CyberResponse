@@ -1,9 +1,9 @@
 version: "2.2"
 services:
   website:
-  build: .
-  container_name: CyberResponse
-  ports:
-    - "3000:3000"
-  stdin_open: true
-  tty: true
+    build: .
+    container_name: crapp
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true
