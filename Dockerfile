@@ -6,7 +6,8 @@ COPY package*.json .
 
 RUN npm install
 
-COPY . .
+COPY . .    
+# copy everything from root directory where Dockerfile is placed and paste to root dir where docker image is placed
 
 EXPOSE 3000
 
